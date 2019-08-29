@@ -6,9 +6,7 @@
 # | |__| | |  | | |____ 
 #  \____/|_|  |_|\_____|
 # The most customisable UHC plugin for Minecraft PE!
-namespace Ad5001\UHC ; 
-use pocketmine\command\CommandSender;
-use pocketmine\command\Command;
+namespace Ad5001\UHC;
 use pocketmine\event\Listener;
 use pocketmine\event\level\LevelLoadEvent;
 use pocketmine\event\player\PlayerJoinEvent;
