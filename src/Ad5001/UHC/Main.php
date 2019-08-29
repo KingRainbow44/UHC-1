@@ -8,7 +8,6 @@
 # The most customisable UHC plugin for Minecraft PE!
 namespace Ad5001\UHC ; 
 use pocketmine\command\CommandSender;
-use pocketmine\command\Command;
 use pocketmine\command;
 use pocketmine\event\Listener;
 use pocketmine\event\level\LevelLoadEvent;
@@ -20,7 +19,6 @@ use pocketmine\event\player\PlayerRespawnEvent;
 use pocketmine\event\entity\EntityRegainHealthEvent;
 use pocketmine\item\Item;
 use pocketmine\block\Block;
-use pocketmine\plugin\PluginBase;
 use pocketmine\plugin;
 use pocketmine\Server;
 use pocketmine\Player;
