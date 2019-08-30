@@ -6,7 +6,9 @@
 # | |__| | |  | | |____ 
 #  \____/|_|  |_|\_____|
 # The most customisable UHC plugin for Minecraft PE!
-namespace Ad5001\UHC;
+namespace Ad5001\UHC; 
+use pocketmine\command\CommandSender as CommandSender;
+use pocketmine\command\Command as Command;
 use pocketmine\event\Listener;
 use pocketmine\event\level\LevelLoadEvent;
 use pocketmine\event\player\PlayerJoinEvent;
@@ -93,7 +95,7 @@ class Main extends PluginBase implements Listener{
     }
 
 
- public function onCommand(CommandSender $sender, Command $command, string $label, array $args){
+ public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args){
   switch($cmd->getName()){
     case "uhc":
     if(isset($args[0]) and $sender instanceof Player) {
