@@ -30,7 +30,7 @@ use Ad5001\UHC\UHCGame;
 use Ad5001\UHC\task\FetchPlayersTask;
 use Ad5001\UHC\task\StartGameTask;
 use Ad5001\UHC\event\GameStartEvent;
-use Ad5001\UHC\event\GameFinishEvent;
+use Ad5001\UHC\event\GameStopEvent;
 
 class Main extends PluginBase implements Listener{
     const PREFIX = C::GOLD . "[" . C::DARK_RED . "UHC" . C::GOLD . "] ". C::RESET . C::WHITE;
