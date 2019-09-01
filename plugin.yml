@@ -17,6 +17,7 @@ commands:
      description: Main UHC command
      usage: "/uhc <sub-command> [params]"
      permission: uhc.command.main
+     aliases: [ultrahc]
    scenarios:
      description: Manage UHC scenarios
      usage: "/scenarios [add | remove | list] [scenario]"
