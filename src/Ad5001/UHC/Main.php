@@ -1,4 +1,4 @@
-<?php
+ <?php
 #  _    _ _    _  _____ 
 # | |  | | |  | |/ ____|
 # | |  | | |__| | |     
@@ -95,7 +95,7 @@ class Main extends PluginBase implements Listener{
     }
 
 
- public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args){
+ public function onCommand(CommandSender $sender, Command $cmd, String $label, array $args): bool{
   switch($cmd->getName()){
     case "uhc":
     if(isset($args[0]) and $sender instanceof Player) {
