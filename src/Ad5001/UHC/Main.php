@@ -1,12 +1,7 @@
- <?php
-#  _    _ _    _  _____ 
-# | |  | | |  | |/ ____|
-# | |  | | |__| | |     
-# | |  | |  __  | |     
-# | |__| | |  | | |____ 
-#  \____/|_|  |_|\_____|
-# The most customisable UHC plugin for Minecraft PE!
+<?php
+
 namespace Ad5001\UHC; 
+
 use pocketmine\command\CommandSender as CommandSender;
 use pocketmine\command\Command as Command;
 use pocketmine\event\Listener;
