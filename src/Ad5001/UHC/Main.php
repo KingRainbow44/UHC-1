@@ -389,7 +389,7 @@ return false;
 
    public function onPlayerJoin(\pocketmine\event\player\PlayerJoinEvent $event) {
         if(!isset($this->ft)) {
-            $this->ft = $this->Plugin->getScheduler()->scheduleRepeatingTask(new FetchPlayersTask($this, $this->UHCManager->getStartedUHCs()), 10);
+            $this->ft = $this->getScheduler()->scheduleRepeatingTask(new FetchPlayersTask($this, $this->UHCManager->getStartedUHCs()), 10);
         }
         if(isset($this->quit[$event->getPlayer()->getName()]) and $event->getPlayer()->getLevel()->getName() == $this->quit[3]) {
                 $this->quit = explode("/", $this->quit[$event->getPlayer()->getName()]);
