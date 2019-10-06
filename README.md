@@ -18,7 +18,8 @@ Current complete features:
 - [x] MultiWorld compatible     
 - [x] Scenario working     
 - **[here](https://github.com/Ad5001/SpectatorPlus)** Full spectator mode     
-- [x] Events     
+- [x] Events 
+- [ ] API 3.0.0 Fix
      
 # Config example:
 ```yaml
